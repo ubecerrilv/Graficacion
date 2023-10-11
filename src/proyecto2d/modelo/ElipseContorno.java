@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.geom.Ellipse2D;
 import java.util.Random;
 
+@SuppressWarnings("serial")
 public class ElipseContorno extends JPanel {
 
     private static final int NUM_ELIPSES = 100;

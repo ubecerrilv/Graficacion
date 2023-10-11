@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Random;
 
+@SuppressWarnings("serial")
 public class Texto extends JPanel {
 
     private final String[] palabras = {"Tarea", "Textos", "Graficación"};

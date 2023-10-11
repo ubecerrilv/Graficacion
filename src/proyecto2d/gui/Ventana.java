@@ -3,7 +3,6 @@ package proyecto2d.gui;
 import java.awt.BorderLayout;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
-import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 
 import javax.swing.BorderFactory;
@@ -20,6 +19,7 @@ import proyecto2d.controlador.Comandos;
 import proyecto2d.modelo.Cuadrados;
 import proyecto2d.modelo.ElipseContorno;
 import proyecto2d.modelo.ElipseRellena;
+import proyecto2d.modelo.Tablero;
 import proyecto2d.modelo.Texto;
 
 
@@ -57,6 +57,7 @@ public class Ventana extends VentanaAGeneral{
 		opciones.add(new ElipseContorno().getPanel(), "Elipses en contorno");
 		opciones.add(new ElipseRellena().getPanel(), "Elipses rellenas");
 		opciones.add(new Texto().getPanel(), "Textos aleatorios");
+		opciones.add(new Tablero(8,8).getPanel(), "Tablero de ajedrez");
 
 
 		//CREAR PANELES

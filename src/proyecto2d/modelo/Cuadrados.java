@@ -17,7 +17,8 @@ public class Cuadrados {
         }
     }
 
-    public JPanel createPanelWithSlider() {
+    @SuppressWarnings("serial")
+	public JPanel createPanelWithSlider() {
         JPanel panel = new JPanel();
         panel.setLayout(new BorderLayout());
 
