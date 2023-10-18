@@ -21,6 +21,7 @@ import proyecto2d.modelo.ElipseContorno;
 import proyecto2d.modelo.ElipseRellena;
 import proyecto2d.modelo.Tablero;
 import proyecto2d.modelo.Texto;
+import tarea1.DibujoPanel;
 
 
 @SuppressWarnings("serial")
@@ -58,6 +59,7 @@ public class Ventana extends VentanaAGeneral{
 		opciones.add(new ElipseRellena().getPanel(), "Elipses rellenas");
 		opciones.add(new Texto().getPanel(), "Textos aleatorios");
 		opciones.add(new Tablero(8,8).getPanel(), "Tablero de ajedrez");
+		opciones.add(new DibujoPanel(), "Panel de dibujo");
 
 
 		//CREAR PANELES
